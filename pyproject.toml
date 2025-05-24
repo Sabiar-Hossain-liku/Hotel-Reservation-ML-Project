@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "hotelres"
+version = "0.1.0"
+description = "Add your description here"
+authors = [{ name = "Sabiar Hossain Liku" }]
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "google-cloud-storage>=3.1.0",
+    "matplotlib>=3.10.3",
+    "numpy>=2.2.6",
+    "pandas>=2.2.3",
+    "pyyaml>=6.0.2",
+    "scikit-learn>=1.6.1",
+]
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]

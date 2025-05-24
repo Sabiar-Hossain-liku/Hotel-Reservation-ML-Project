@@ -1,0 +1,142 @@
+# -------------------------
+# Python
+# -------------------------
+__pycache__/
+*.py[cod]
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+
+# -------------------------
+# Jupyter Notebooks
+# -------------------------
+.ipynb_checkpoints/
+
+# -------------------------
+# Environment / Dependencies
+# -------------------------
+.venv/
+env/
+venv/
+.uv/
+
+# uv specific
+uv.env.lock
+.uv.cache/
+
+# -------------------------
+# Data & Models
+# -------------------------
+*.h5
+*.hdf5
+*.ckpt
+*.pth
+*.pt
+*.tflite
+*.pb
+*.joblib
+*.pkl
+*.npz
+*.npy
+
+# If you store data in a 'data/' or 'datasets/' folder
+data/
+datasets/
+
+# -------------------------
+# Logs & Outputs
+# -------------------------
+*.log
+logs/
+wandb/
+runs/
+output/
+outputs/
+checkpoints/
+tensorboard/
+
+# -------------------------
+# OS-specific
+# -------------------------
+.DS_Store
+Thumbs.db
+
+# -------------------------
+# Editor/IDE specific
+# -------------------------
+.vscode/
+.idea/
+*.swp
+# -------------------------
+# Python
+# -------------------------
+__pycache__/
+*.py[cod]
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+
+# -------------------------
+# Jupyter Notebooks
+# -------------------------
+.ipynb_checkpoints/
+
+# -------------------------
+# Environment / Dependencies
+# -------------------------
+.venv/
+env/
+venv/
+.uv/
+
+# uv specific
+uv.env.lock
+.uv.cache/
+
+# -------------------------
+# Data & Models
+# -------------------------
+*.h5
+*.hdf5
+*.ckpt
+*.pth
+*.pt
+*.tflite
+*.pb
+*.joblib
+*.pkl
+*.npz
+*.npy
+
+# If you store data in a 'data/' or 'datasets/' folder
+data/
+datasets/
+
+# -------------------------
+# Logs & Outputs
+# -------------------------
+*.log
+logs/
+wandb/
+runs/
+output/
+outputs/
+checkpoints/
+tensorboard/
+
+# -------------------------
+# OS-specific
+# -------------------------
+.DS_Store
+Thumbs.db
+
+# -------------------------
+# Editor/IDE specific
+# -------------------------
+.vscode/
+.idea/
+*.swp

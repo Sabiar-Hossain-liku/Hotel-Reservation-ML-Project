@@ -3,6 +3,7 @@ import pandas
 from hotelres.logger import get_logger
 from hotelres.custom_exception import CustomException
 import yaml
+import pandas as pd
 
 logger = get_logger(__name__)
 
@@ -23,3 +24,14 @@ def read_yaml(file_path):
     except Exception as e:
         logger.error("Error in the file reading")
         raise CustomException("Failed to read Yaml file ", e)
+    
+
+def load_data(path):
+    try:
+        logger.info("loading Data")
+        return pd.load_csv("path")
+    except Exception as e:
+        logger.error("Error loading the csv file")
+        raise CustomException("Failled loading the Csv",e)
+    
+    

@@ -11,11 +11,17 @@ readme = "README.md"
 requires-python = ">=3.11"
 dependencies = [
     "google-cloud-storage>=3.1.0",
+    "imbalanced-learn>=0.13.0",
+    "ipykernel>=6.29.5",
+    "lightgbm>=4.6.0",
     "matplotlib>=3.10.3",
     "numpy>=2.2.6",
     "pandas>=2.2.3",
     "pyyaml>=6.0.2",
     "scikit-learn>=1.6.1",
+    "seaborn>=0.13.2",
+    "statsmodels>=0.14.4",
+    "xgboost",
 ]
 
 [tool.setuptools]

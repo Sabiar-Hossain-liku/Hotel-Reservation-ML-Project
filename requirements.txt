@@ -1,7 +1,16 @@
 pandas 
 numpy
 
+
 google-cloud-storage
 scikit-learn
 matplotlib
+seaborn
+
 pyyaml
+ipykernel
+statsmodels
+
+imbalanced-learn
+xgboost
+lightgbm

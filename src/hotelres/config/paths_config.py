@@ -15,5 +15,5 @@ CONFIG_PATH = "src/hotelres/config/config.yaml"
 
 
 PROCESSED_DIR = "artifacts/processed"
-PORCESSED_TRAIN = os.join(PROCESSED_DIR, "processed_train.csv")
-PORCESSED_TEST = os.join(PROCESSED_DIR, "processed_test.csv")
+PROCESSED_TRAIN = os.path.join(PROCESSED_DIR, "processed_train.csv")
+PROCESSED_TEST = os.path.join(PROCESSED_DIR, "processed_test.csv")

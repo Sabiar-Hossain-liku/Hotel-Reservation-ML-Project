@@ -28,10 +28,12 @@ def read_yaml(file_path):
 
 def load_data(path):
     try:
-        logger.info("loading Data")
-        return pd.load_csv("path")
+        logger.info("loading Data...")
+        data =pd.read_csv(path)
+        logger.info("data loaded")
+        return data
     except Exception as e:
         logger.error("Error loading the csv file")
         raise CustomException("Failled loading the Csv",e)
     
-    
+

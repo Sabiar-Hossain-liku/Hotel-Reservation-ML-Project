@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/PrACTISE%20PROJECTS/HotelRes/Project/mlruns/0/64e760fb75574347b1245b929df9edba/artifacts
+end_time: 1748334965921
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 64e760fb75574347b1245b929df9edba
+run_name: mercurial-gnu-14
+run_uuid: 64e760fb75574347b1245b929df9edba
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1748334949906
+status: 3
+tags: []
+user_id: sabiar

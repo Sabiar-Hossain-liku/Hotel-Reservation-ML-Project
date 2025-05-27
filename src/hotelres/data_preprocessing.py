@@ -150,8 +150,17 @@ class DataProcessor:
 
             train_df = self.select_features(train_df)
 
-            selected_columns = train_df.columns
-            test_df = test_df[selected_columns]
+            selected_columns = train_df.columns.drop("booking_status").tolist()
+
+            X_test = test_df[selected_columns]
+            y_test = test_df['booking_status']
+
+            # Recombining the test data
+            test_df = pd.concat([X_test, y_test], axis=1)
+
+            print("Final test_df shape:", test_df.shape)
+            print("Does test_df still have 6047 rows?", test_df.shape[0] == 6047)
+
 
             self.save_data(train_df,PROCESSED_TRAIN)
             self.save_data(test_df,PROCESSED_TEST)

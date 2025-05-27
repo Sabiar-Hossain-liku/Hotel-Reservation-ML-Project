@@ -17,3 +17,8 @@ CONFIG_PATH = "src/hotelres/config/config.yaml"
 PROCESSED_DIR = "artifacts/processed"
 PROCESSED_TRAIN = os.path.join(PROCESSED_DIR, "processed_train.csv")
 PROCESSED_TEST = os.path.join(PROCESSED_DIR, "processed_test.csv")
+
+
+####################### MODEL TRAINING ################################
+
+MODEL_OUTPUT_PATH = "artifacts/models/lgbm_model.pkl"

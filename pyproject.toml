@@ -10,6 +10,7 @@ authors = [{ name = "Sabiar Hossain Liku" }]
 readme = "README.md"
 requires-python = ">=3.11"
 dependencies = [
+    "flask>=3.1.1",
     "google-cloud-storage>=3.1.0",
     "imbalanced-learn>=0.13.0",
     "ipykernel>=6.29.5",

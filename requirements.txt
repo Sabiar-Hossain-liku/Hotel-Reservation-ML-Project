@@ -15,3 +15,4 @@ imbalanced-learn
 xgboost
 lightgbm
 mlflow
+flask

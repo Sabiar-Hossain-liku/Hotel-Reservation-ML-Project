@@ -1,5 +1,4 @@
 import os
-import pandas
 from hotelres.logger import get_logger
 from hotelres.custom_exception import CustomException
 import yaml

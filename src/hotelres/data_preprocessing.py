@@ -4,8 +4,8 @@ import numpy as np
 
 from hotelres.logger import get_logger
 from hotelres.custom_exception import CustomException
-from hotelres.config.paths_config import *
-from hotelres.utils.commonfunctions import read_yaml, load_data
+from config.paths_config import *
+from utils.commonfunctions import read_yaml, load_data
 
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.preprocessing import LabelEncoder

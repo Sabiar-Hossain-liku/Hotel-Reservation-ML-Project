@@ -4,8 +4,8 @@ from google.cloud import storage
 from sklearn.model_selection import train_test_split
 from hotelres.logger import get_logger  
 from hotelres.custom_exception import CustomException
-from hotelres.config.paths_config import *
-from hotelres.utils.commonfunctions import read_yaml
+from config.paths_config import *
+from utils.commonfunctions import read_yaml
 
 logger = get_logger(__name__)
 
